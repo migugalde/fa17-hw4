@@ -1,0 +1,19 @@
+<h1>RECORDS</h1>
+
+<h1>Cats</h1>
+	<% @cats.each do |obj| %>
+		<h3>Name: <%= obj.name %></h3>
+	<% end %>
+
+<h1>Todos</h1>
+	<% @todos.each do |obj| %>
+		<h3>Tasks: <%= obj.tasks %></h3>
+		<h3>Finished: <%= obj.finished %></h3>
+	<% end %>
+
+<h1>Users</h1>
+	<% @users.each do |obj| %>
+		<h3>Username: <%= obj.username %></h3>
+		<h3>Email: <%= obj.email%></h3>
+		<h3>Age: <%= obj.age%></h3>
+	<% end %>

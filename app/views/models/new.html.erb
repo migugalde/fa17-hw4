@@ -1,0 +1,5 @@
+<%= form_for :todo do |obj| %>
+    <h3>Tasks: <%= obj.text_field :tasks %></h3> <br>
+    <h3>Finished: <%= obj.check_box :finished %></h3> <br>
+    <%= obj.submit %>
+<% end %>
